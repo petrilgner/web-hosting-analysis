@@ -1,0 +1,8 @@
+requests
+urllib3
+pyquery
+tldextract
+folium
+prettytable
+ipwhois
+dnspython

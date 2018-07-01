@@ -1,0 +1,8 @@
+env/
+visualisation/*
+export/*
+.idea/
+*.pyc
+evaluation.db
+
+!.gitkeep
