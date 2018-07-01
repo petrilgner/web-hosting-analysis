@@ -1,5 +1,8 @@
-This tools analyses the list of web servers. It detects if web page is hosted on shared 
-environment, support of security protocols as a DNSSEC, HTTPS. It also provides an information about IPv6 support. 
+This tool allows analyzing a large number of web servers that can be further categorized. It detects if the web page is hosted on a shared environment, support of security protocols as a DNSSEC, HTTPS. It also provides an information about IPv6 support. During processing, the actual location of the detected web servers is also detected.
+
+The obtained data can be printed or exported to a CSV file. Geographical data can be shown on the interactive map.
+
+#### App reqirements
 
 The application requires an Python 3.5 or greater support. It is recommended to using with virtual environment (venv).
 
@@ -49,3 +52,7 @@ The position of all detected webservers can be shown in map using command: `./bu
 ### Print server information
 
 Using `modules/webserver_stats.py` command you can print the server information which are used in evaluating scripts. It includes informations such a server software version and allowance of monitored protocols.
+
+## Acknowledgment
+
+This software was supported supported by FEKT-S-17-4184 research project of Brno University of Technology.
